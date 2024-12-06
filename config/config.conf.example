@@ -1,0 +1,13 @@
+[spotify]
+spotify_client_id = [CLIENT ID HERE]
+spotify_secret_key = [SECRET KEY HERE]
+
+[aws]
+aws_access_key_id = [ACCESS KEY ID]
+aws_secret_access_key= [SECRET KEY]
+aws_region = [REGION]
+aws_bucket_name = [BUCKET NAME]
+
+[dir]
+input_path = /opt/airflow/data/input
+output_path = /opt/airflow/data/output
