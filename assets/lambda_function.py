@@ -6,8 +6,8 @@ glue = boto3.client('glue')
 s3 = boto3.client('s3')
 
 # Glue job and crawler names
-GLUE_JOB_NAME = "spotify-pipeline"
-CRAWLER_NAME = "spotify-data-crawler"
+GLUE_JOB_NAME = "glue-job-name"
+CRAWLER_NAME = "glue-crawler-name"
 
 def lambda_handler(event, context):
     # Log S3 event details
