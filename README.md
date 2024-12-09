@@ -30,5 +30,5 @@ This project demonstrates the creation of an automated data pipeline using Spoti
       docker-compose up -d --build
     
 
-Learn more:
+## Learn more:
 Check out my detailed blog post on this project [here](https://medium.com/@himanshukotkar007/building-a-spotify-data-pipeline-from-api-to-insights-7b02198bb1d4).
