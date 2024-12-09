@@ -10,16 +10,25 @@ This project demonstrates the creation of an automated data pipeline using Spoti
      git clone https://github.com/HK-0811/spotify-data-pipeline
 
 3. Create a virtual environment
+   ```bash
+    python -m venv venv
 
-4. Activate the virtual environment
+5. Activate the virtual environment
+      ```bash
+     venv\Scripts\activate
 
-5. Install the dependencies
+7. Install the dependencies
+      ```bash
+      pip install -r requirements.txt
 
-6. Rename the configuration file and add required credentials to it
-
-7. Start the container
-
-8. Open Airflow WebUI
+9. Rename the configuration file and add required credentials to it
+    ```bash
+     mv config/config.conf.example config/config.conf
+     
+11. Build and Start the container
+       ```bash
+      docker-compose up -d --build
+    
 
 Learn more:
 Check out my detailed blog post on this project [here](https://medium.com/@himanshukotkar007/building-a-spotify-data-pipeline-from-api-to-insights-7b02198bb1d4).
