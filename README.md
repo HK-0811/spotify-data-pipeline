@@ -6,7 +6,8 @@ This project demonstrates the creation of an automated data pipeline using Spoti
 # Steps to run the project
 
 1. Clone the repository
-   ```  git clone https://github.com/HK-0811/spotify-data-pipeline ```
+   ```bash
+     git clone https://github.com/HK-0811/spotify-data-pipeline
 
 3. Create a virtual environment
 
